@@ -1,10 +1,16 @@
 [project]
-name = "template-proy-python"
+name = "ml-training-vertex"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "ipykernel>=7.2.0",
-    "python-dotenv>=1.2.2",
+    "catboost>=1.2.10",
+    "ipykernel>=7.3.0",
+    "lightgbm>=4.6.0",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "xgboost>=3.3.0",
 ]
